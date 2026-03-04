@@ -1,8 +1,9 @@
+import styles from "../assets/Logo.module.css"
 
 export default function Logo() {
   return (
-    <div className="logo">
-      <div className="hair">
+    <div className={styles.logo}>
+      <div className={styles.hair}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.16 126.87">
           <g>
                 <g>
@@ -12,7 +13,7 @@ export default function Logo() {
         </svg>
       </div>
 
-      <div className="glasses">
+      <div className={styles.glasses}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103.63 42.68">
           <g>
                 <g>
@@ -24,7 +25,7 @@ export default function Logo() {
         </svg>
       </div>
 
-      <div className="play">
+      <div className={styles.play}>
         <button type="button">Colorize Glass</button>
         <button type="button">Reset Glass</button>
       </div>
